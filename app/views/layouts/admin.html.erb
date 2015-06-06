@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>MENÚ EXPRESS</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/clearform.js"></script>
+        <script type="text/javascript">
+            function cargar(div, desde)
+            {
+                $(div).load(desde);
+            }
+            
+            $(function(){
+                var appendthis = ("<div class='modal-overlay js-modal-close'></div>");
+                $('a[data-modal-id]').click(function(e) {
+            		e.preventDefault();
+                    $("body").append(appendthis);
+                    $(".modal-overlay").fadeTo(500, 0.7);
+                    //$(".js-modalbox").fadeIn(500);
+                	var modalBox = $(this).attr('data-modal-id');
+                	$('#'+modalBox).fadeIn($(this).data());
+                });  
+                	
+                $(".js-modal-close, .modal-overlay").click(function() {
+                    $(".modal-box, .modal-overlay").fadeOut(500, function() {
+                        $(".modal-overlay").remove();
+                    });
+                });
+                
+                $(window).resize(function() {
+                    $(".modal-box").css({
+                        top: ($(window).height() - $(".modal-box").outerHeight()) / 2,
+                        left: ($(window).width() - $(".modal-box").outerWidth()) / 2
+                    });
+                });
+                
+                $(window).resize();
+            });
+        </script>
+    </head>
+    <body onload="cargar('#cuerpo', 'administrador-local.html')">
+        <header>
+            <nav>
+                <div style="padding-top: 10px;padding-bottom: 10px;">
+                    <img src="img/logo.png">
+                </div>
+            </nav>
+        </header>
+        <div class="contenedor">
+            <div class="ladoizquierdo">
+                <h3 style="margin-left: 10px;height: 5px;">PANEL DE CONTROL</h3>
+                <div class="marcomenu">
+                    <div id="navigation">
+                        <ul class="top-level">
+                            <li><a href="#" onclick="cargar('#cuerpo', 'administrador-local.html')">Administrar Local</a></li>
+                            <li><a href="#" onclick="cargar('#cuerpo', 'registro-menu.html')">Registro Menú</a></li>
+                            <li><a href="#" onclick="cargar('#cuerpo', 'pedido-del-dia.html')">Pedidos del Día</a></li>
+                            <li><a href="#" onclick="cargar('#cuerpo', 'historial-pedido.html')">Historial de Pedidos</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="calendar" style="padding-top: 20px;"></div>
+            </div>
+            <div id="cuerpo" class="cuerpo" style="min-height: 455px;"></div>
+            <div class="footer" style="padding-top: 483px;">
+                <ul>
+                    <li style="margin-top: 10px;">COPYRIGHT@GRUPO 5 - DERECHOS RESERVADOS</li>
+                </ul>
+            </div>
+        </div>
+        <script src="js/jquery-ui-datepicker.min.js"></script>
+        <script>
+        	$('#calendar').datepicker({
+        		inline: true,
+        		firstDay: 1,
+        		showOtherMonths: true,
+        		dayNamesMin: ['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab']
+        	});
+        </script>
+    </body>
+</html>

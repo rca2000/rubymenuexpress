@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>MENÚ EXPRESS</title>
+        <%= stylesheet_link_tag    'style', media: 'all', 'data-turbolinks-track' => true %>
+        <%= javascript_include_tag 's/jquery-2.1.4.min.js', 'data-turbolinks-track' => true %>
+        <%= javascript_include_tag 'js/clearform.js', 'data-turbolinks-track' => true %>
+        <script type="text/javascript">
+            $(function(){
+                var appendthis = ("<div class='modal-overlay js-modal-close'></div>");
+                $('a[data-modal-id]').click(function(e) {
+            		e.preventDefault();
+                    $("body").append(appendthis);
+                    $(".modal-overlay").fadeTo(500, 0.7);
+                    //$(".js-modalbox").fadeIn(500);
+                	var modalBox = $(this).attr('data-modal-id');
+                	$('#'+modalBox).fadeIn($(this).data());
+                });  
+                	
+                $(".js-modal-close, .modal-overlay").click(function() {
+                    $(".modal-box, .modal-overlay").fadeOut(500, function() {
+                        $(".modal-overlay").remove();
+                    });
+                });
+                
+                $(window).resize(function() {
+                    $(".modal-box").css({
+                        top: ($(window).height() - $(".modal-box").outerHeight()) / 2,
+                        left: ($(window).width() - $(".modal-box").outerWidth()) / 2
+                    });
+                });
+                
+                $(window).resize();
+            });
+            
+            var doc=document.getElementById("localizacion");
+            function getLocation()
+            {
+                if (navigator.geolocation)
+                {
+                    navigator.geolocation.getCurrentPosition(showPosition,showError);
+                }
+            }
+        
+            function showPosition(position)
+            {
+                var latlon=position.coords.latitude+","+position.coords.longitude;
+        
+                var img_url="http://maps.googleapis.com/maps/api/staticmap?center="
+                +latlon+"&zoom=14&size=400x300&sensor=false";
+                document.getElementById("map").innerHTML="<img src='"+img_url+"'>";
+            }
+        
+            function showError(error)
+            {
+                switch(error.code) 
+                {
+                case error.PERMISSION_DENIED:
+                    doc.innerHTML="Request for Geolocation denied by the user."
+                    break;
+                case error.POSITION_UNAVAILABLE:
+                    doc.innerHTML="Unavailable location information."
+                    break;
+                case error.TIMEOUT:
+                    doc.innerHTML="Location request timed out."
+                    break;
+                case error.UNKNOWN_ERROR:
+                    doc.innerHTML="UNKNOWN_ERROR."
+                    break;
+                }
+            }
+        </script>
+    </head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<%= render "header" %>
+<div class="contenedor">
+    <%= render "ladoizquierdo" %>
+    <div id="cuerpo" class="cuerpo" style="min-height: 422px;">
+        <h1 style="margin:0px 20px 10px;">Bienvenido</h1>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div>
+            <div class="bloque">
+                <div class="bloquecomida">
+                    <div><a href="#" onclick="cargar('#cuerpo', 'local.html')"><%= image_tag "food/food1.jpg", width:"100%" %></a></div>
+                    <p><span class="tex1">Food1</span><span class="tex2">S/.13.00</span></p>
+                </div>
+                <div class="bloquecomida">
+                    <div><a href="#" onclick="cargar('#cuerpo', 'local.html')"><%= image_tag "food/food2.jpg", width:"100%" %></a></div>
+                    <p><span class="tex1">Food2</span><span class="tex2">S/.10.00</span></p>
+                </div>
+            </div>
+            <div class="bloque">
+                <div class="bloquecomida">
+                    <div><a href="#" onclick="cargar('#cuerpo', 'local.html')"><%= image_tag "food/food3.jpg", width:"100%" %></a></div>
+                    <p><span class="tex1">Food3</span><span class="tex2">S/.13.00</span></p>
+                </div>
+                <div class="bloquecomida">
+                    <div><a href="#" onclick="cargar('#cuerpo', 'local.html')"><%= image_tag "food/food4.jpg", width:"100%" %></a></div>
+                    <p><span class="tex1">Food4</span><span class="tex2">S/.10.00</span></p>
+                </div>
+            </div>
+            <div class="bloque" style="border-bottom: 0px;">
+                <div class="bloquecomida">
+                    <div><a href="#" onclick="cargar('#cuerpo', 'local.html')"><%= image_tag "food/food5.jpg", width:"100%" %></a></div>
+                    <p><span class="tex1">Food5</span><span class="tex2">S/.13.00</span></p>
+                </div>
+                <div class="bloquecomida">
+                    <div><a href="#" onclick="cargar('#cuerpo', 'local.html')"><%= image_tag "food/food6.jpg", width:"100%" %></a></div>
+                    <p><span class="tex1">Food6</span><span class="tex2">S/.10.00</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%= render "footer" %>
+</div>

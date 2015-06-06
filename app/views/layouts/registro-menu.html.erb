@@ -1,0 +1,148 @@
+<h1 style="margin:0px 20px 10px;">Registro de Menú</h1>
+<hr>
+<div style="margin: 15px 50px 10px 50px;">
+    <div id="dialogo" class="modal-box" style="top: 339px; left: 382px;">
+        <header style="width:303px;">
+            <a href="#" class="js-modal-close close">×</a>
+            <h3>Mensaje</h3>
+        </header>
+        <div class="modal-body">
+            <p>Grabación exitosa.</p>
+        </div>
+        <footer><a href="#" class="js-modal-close botonahref">Cerrar</a></footer>
+    </div>
+    <table width="50%" cellspacing="15">
+        <tr>
+            <td><label for="">Fecha</label></td>     
+            <td>
+                <input type="date" style="width: 130px;" name="" id="fechaactual"/>
+            </td>     
+        </tr>
+        <tr>
+            <td><label for="">Menú</label></td>     
+            <td>
+                S/.<input type="text" style="width: 110px;" name=""/>
+            </td>     
+        </tr>
+        <tr>
+            <td><label for="">Refresco</label></td>     
+            <td>
+                S/.<input type="text" style="width: 110px;" name=""/>
+            </td>     
+        </tr>
+    </table>
+    <table width="95%" style="margin:auto;">
+        <tr height="40">
+            <th style="background-color: #799839; color:#fff;" width="60%">ENTRADAS</th>
+            <th style="background-color: #799839; color:#fff;" width="20%">PRECIO</th>
+            <th colspan="2" style="background-color: #799839; color:#fff;">&nbsp;</th>
+        </tr>
+        <tr>
+            <td style="background-color :#E1EACC; font-size:14px;">&nbsp;</td>
+            <td style="background-color :#E1EACC; font-size:14px;">&nbsp;</td>
+            <td align="center" style="background-color :#E1EACC; font-size:14px;"><a href=""><img src="/img/edit.jpg"></a></td>
+            <td align="center" style="background-color :#E1EACC; font-size:14px;"><a href=""><img src="/img/delete.jpg"></a></td>
+        </tr>
+        <tr>
+            <td style="background-color :#E1EACC; font-size:14px;">&nbsp;</td>
+            <td style="background-color :#E1EACC; font-size:14px;">&nbsp;</td>
+            <td align="center" style="background-color :#E1EACC; font-size:14px;"><a href=""><img src="/img/edit.jpg"></a></td>
+            <td align="center" style="background-color :#E1EACC; font-size:14px;"><a href=""><img src="/img/delete.jpg"></a></td>
+        </tr>
+        <tr>
+            <td style="background-color :#E1EACC; font-size:14px;">&nbsp;</td>
+            <td style="background-color :#E1EACC; font-size:14px;">&nbsp;</td>
+            <td align="center" style="background-color :#E1EACC; font-size:14px;"><a href=""><img src="/img/edit.jpg"></a></td>
+            <td align="center" style="background-color :#E1EACC; font-size:14px;"><a href=""><img src="/img/delete.jpg"></a></td>
+        </tr> 
+    </table>
+    <table width="95%" style="margin:auto;">
+        <tr>
+            <td><input type="button" name="" value="Nuevo" class="btnCan"/></td>
+        </tr>
+        <tr height="20">
+            <td> </td>
+        </tr>
+    </table>
+    <table width="95%" style="margin:auto;">
+        <tr height="40">
+            <th style="background-color: #799839; color:#fff;" width="60%">ENTRADAS</th>
+            <th style="background-color: #799839; color:#fff;" width="20%">PRECIO</th>
+            <th colspan="2" style="background-color: #799839; color:#fff;">&nbsp;</th>
+        </tr>
+        <tr>
+            <td style="background-color :#E1EACC; font-size:14px;">&nbsp;</td>
+            <td style="background-color :#E1EACC; font-size:14px;">&nbsp;</td>
+            <td align="center" style="background-color :#E1EACC; font-size:14px;"><a href=""><img src="/img/edit.jpg"></a></td>
+            <td align="center" style="background-color :#E1EACC; font-size:14px;"><a href=""><img src="/img/delete.jpg"></a></td>
+        </tr>
+        <tr>
+            <td style="background-color :#E1EACC; font-size:14px;">&nbsp;</td>
+            <td style="background-color :#E1EACC; font-size:14px;">&nbsp;</td>
+            <td align="center" style="background-color :#E1EACC; font-size:14px;"><a href=""><img src="/img/edit.jpg"></a></td>
+            <td align="center" style="background-color :#E1EACC; font-size:14px;"><a href=""><img src="/img/delete.jpg"></a></td>
+        </tr>
+        <tr>
+            <td style="background-color :#E1EACC; font-size:14px;">&nbsp;</td>
+            <td style="background-color :#E1EACC; font-size:14px;">&nbsp;</td>
+            <td align="center" style="background-color :#E1EACC; font-size:14px;"><a href=""><img src="/img/edit.jpg"></a></td>
+            <td align="center" style="background-color :#E1EACC; font-size:14px;"><a href=""><img src="/img/delete.jpg"></a></td>
+        </tr> 
+    </table>
+    <table width="95%" style="margin:auto;">
+        <tr>
+            <td><input type="button" name="" value="Nuevo" class="btnCan"/></td>
+        </tr>
+        <tr height="20">
+            <td> </td>
+        </tr>
+    </table>
+    <table style="margin:auto;">
+        <tr>
+            <td><a href="#" class="js-open-modal botonahref" data-modal-id="dialogo" style="width: 100px;">Grabar</a></td>
+        </tr>
+        <tr height="20">
+            <td> </td>
+        </tr>
+    </table>
+</div>
+<script>
+    $(function(){
+        var appendthis = ("<div class='modal-overlay js-modal-close'></div>");
+        $('a[data-modal-id]').click(function(e) {
+    		e.preventDefault();
+            $("body").append(appendthis);
+            $(".modal-overlay").fadeTo(500, 0.7);
+            //$(".js-modalbox").fadeIn(500);
+        	var modalBox = $(this).attr('data-modal-id');
+        	$('#'+modalBox).fadeIn($(this).data());
+        });  
+        	
+        $(".js-modal-close, .modal-overlay").click(function() {
+            $(".modal-box, .modal-overlay").fadeOut(500, function() {
+                $(".modal-overlay").remove();
+            });
+        });
+        
+        $(window).resize(function() {
+            $(".modal-box").css({
+                top: ($(window).height() - $(".modal-box").outerHeight()) / 2,
+                left: ($(window).width() - $(".modal-box").outerWidth()) / 2
+            });
+        });
+        
+        $(window).resize();
+    });
+</script>
+<script id="jsbin-javascript">
+    var date = new Date();
+    var day = date.getDate();
+    var month = date.getMonth() + 1;
+    var year = date.getFullYear();
+    if (month < 10)
+        month = "0" + month;
+    if (day < 10)
+        day = "0" + day;
+    var today = year + "-" + month + "-" + day;
+    $("#fechaactual").attr("value", today);
+</script>

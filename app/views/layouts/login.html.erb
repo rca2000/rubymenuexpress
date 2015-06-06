@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>MENÚ EXPRESS</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="js/clearform.js"></script>
+        <script type="text/javascript">
+            function cargar(div, desde)
+            {
+                $(div).load(desde);
+            }
+            
+            $(function(){
+                var appendthis = ("<div class='modal-overlay js-modal-close'></div>");
+                $('a[data-modal-id]').click(function(e) {
+            		e.preventDefault();
+                    $("body").append(appendthis);
+                    $(".modal-overlay").fadeTo(500, 0.7);
+                    //$(".js-modalbox").fadeIn(500);
+                	var modalBox = $(this).attr('data-modal-id');
+                	$('#'+modalBox).fadeIn($(this).data());
+                });  
+                	
+                $(".js-modal-close, .modal-overlay").click(function() {
+                    $(".modal-box, .modal-overlay").fadeOut(500, function() {
+                        $(".modal-overlay").remove();
+                    });
+                });
+                
+                $(window).resize(function() {
+                    $(".modal-box").css({
+                        top: ($(window).height() - $(".modal-box").outerHeight()) / 2,
+                        left: ($(window).width() - $(".modal-box").outerWidth()) / 2
+                    });
+                });
+                
+                $(window).resize();
+            });
+        </script>
+    </head>
+    <body onload="cargar('#cuerpo', 'inicio.html')">
+        <header>
+            <nav>
+                <div style="padding-top: 10px;padding-bottom: 10px;">
+                    <img src="img/logo.png">
+                </div>
+            </nav>
+        </header>
+        <div class="login-box">
+            <header style="width: 303px;height: 15px;">
+                <h3>Menú Express - Login</h3>
+            </header>
+            <div class="login-body">
+                <table cellspacing="10">
+                    <tr>
+                        <td>
+                            <label for="">Usuario</label>
+                        </td>
+                        <td>
+                            <input type="text" style="width: 160px;" name="" value=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Contraseña</label>
+                        </td>
+                        <td>
+                            <input type="password" style="width: 160px;" name="" value=""/>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <footer>
+                <input type="button" name="" value="Ingresar" onclick="location.href='admin.html'"/>
+            </footer>
+        </div>
+    </body>
+</html>
