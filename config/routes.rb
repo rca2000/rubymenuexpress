@@ -1,18 +1,12 @@
 Rails.application.routes.draw do
-  get 'menuexpress/index'
-
-  get 'menuexpress/contactenos'
-
-  get 'menuexpress/nosotros'
-
-  get 'menuexpress/servicio'
-
-  root 'menuexpress#index'
-
-#  get 'inicio' => 'menuexpress/inicio'
-#  get 'nosotros' => 'menuexpress/nosotros'
-#  get 'servicio' => 'menuexpress/servicio'
-#  get 'contactenos' => 'menuexpress/contactenos'
+  root 'home#index'
+  get 'contacto/index'
+  get 'servicio/index'
+  get 'nosotros/index'
+  get 'home/index'
+  get 'pedido/index'
+  get 'localmenu/index'
+  get 'locales/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

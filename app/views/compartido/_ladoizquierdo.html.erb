@@ -1,0 +1,31 @@
+<div class="contenedor">
+    <div class="ladoizquierdo">
+        <form>
+            <label for="">DEPARTAMENTO</label>
+            <input type="text" style="width: 200px;" name="" value="Lima"/>
+            <label for="">DISTRITO</label>
+            <select style="width: 210px;">
+                <option>Selecciona distrito</option>
+                <option>San Isidro</option>
+                <option>La Victoria</option>
+            </select>
+            <div style="text-align: right;">
+                
+                <input type="button" value="Buscar" name="" onclick=<%= link_to 'Buscar', locales_index_path %>/>
+            </div>
+        </form>
+        <form>
+            <h3 style="margin-left: 15px;height: 5px;">INICIAR SESIÓN</h3>
+            <div class="marco">
+                <label for="">USUARIO</label>
+                <input type="text" style="width: 160px;" name="" value=""/>
+                <label for="">CONTRASEÑA</label>
+                <input type="password" style="width: 160px;" name="" value=""/>
+                <div style="text-align: center; padding-top: 10px;">
+                    <input type="button" value="Ingresar" name=""/>
+                    <input type="button" value="Regístrate" name="" onclick=<%= link_to '', home_index_path %> />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

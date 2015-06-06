@@ -1,0 +1,35 @@
+<div class="contenedor">
+    <div id="cuerpo" class="cuerpo" style="min-height: 422px;">
+        <h1 style="margin:0px 20px 10px;">Menú del Día</h1>
+        <hr>
+        <div style="margin: 15px 50px 10px 50px;">
+            <div class="imagenrestaurant"><%= image_tag "rest1.jpg", width:"100%" %></div>
+            <div class="detallerestaurant noBBH">
+                <h2 style="height: 25px">Nombre del local</h2>
+                <p>Dirección</p>
+                <p>Teléfono</p>
+                <p>Correo electrónico</p>
+            </div>
+            <div class="clear"></div>
+            <h3 class="titulomenu">Lunes 20/05/2015<br>Menú Delivery: S/. 13.00</h3>
+            <h4 style="height: 5px;">Entradas: S/. 6.00</h4>
+            <ul class="listaplato">
+                <li><input type="checkbox" name=mybox value="1" ><span>E1) Chicharron de pollo con yuquitas</span></li>
+                <li><input type="checkbox" name=mybox value="2" ><span>E2) Sopa de menestrón</span></li>
+                <li><input type="checkbox" name=mybox value="3" checked><span>E3) Causa de pollo</span></li>
+                <li><input type="checkbox" name=mybox value="4" ><span>E4) Tequeños c/guacamole</span></li>
+            </ul>
+            <h4 style="height: 5px;">Segundos: S/. 8.50</h4>
+            <ul class="listaplato">
+                <li><input type="checkbox" name=mybox value="1" ><span>S1) Seco de res a la norteña</span></li>
+                <li><input type="checkbox" name=mybox value="2" ><span>S2) Pollo dorado c/papas fritas y ensaladas</span></li>
+                <li><input type="checkbox" name=mybox value="3" checked><span>S3) Carapulcra de pollo</span></li>
+                <li><input type="checkbox" name=mybox value="4" ><span>S4) Lomo saltado con fetuccini</span></li>
+            </ul>
+            <h4 style="height: 5px;">Refresco: S/. 1.50</h4>
+            <div style="text-align: right;">
+                <input type="button" style="width: 120px;" value="" onclick=<%= link_to "Realizar Pedido", pedido_index_path %>>
+            </div>
+        </div>
+    </div>
+</div>

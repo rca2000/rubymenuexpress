@@ -7,8 +7,6 @@ body {
 header {
     margin: auto;
     width: 960px;
-    /*background: url(image_path/bg_menu.png) 0 0 repeat-x;*/
-    /*background: url(image-path('bg_menu.png'));*/
     background: url(bg_menu.png);
     border-radius: 5px;
 }
