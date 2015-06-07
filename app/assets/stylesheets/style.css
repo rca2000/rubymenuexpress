@@ -188,6 +188,27 @@ textarea {
 .botonahref:hover {
     background: #D2640C;
 }
+.link_to {
+    cursor: pointer;
+    background: #F48329;
+	/*para Firefox*/
+	-moz-border-radius: 5px;
+	/*para Safari y Chrome*/
+	-webkit-border-radius: 5px;
+	/*para Opera IE*/
+    border-radius: 5px;
+    bottom: 0;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 30px;
+    width: 100px;
+    height: 25px;
+}
+.link_to:hover {
+    background: #D2640C;
+}
 .clear {
     clear:both;
 }
@@ -239,6 +260,7 @@ textarea {
     margin-top: 5px;
     padding-top: 20px;
     margin-bottom: 5px;
+    min-height: 453px;
 }
 .cuerpo .bloque {
     border-bottom: 1px solid #FFEEC3;

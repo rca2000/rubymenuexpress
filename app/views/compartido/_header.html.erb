@@ -1,12 +1,10 @@
 <header>
     <nav style="position: relative;">
         <div class="linkusuario">
-            <a href="#" onclick="cargar('#cuerpo', 'perfil.html')">
-                >> Nombre Usuario
-            </a>
+            <%= link_to '>> Nombre Usuario', perfil_index_path %>
         </div>
         <ul>
-            <li><%= link_to "INICIO", home_index_path %></li>
+            <li><%= link_to "INICIO", root_path %></li>
             <li><%= link_to "NOSOTROS", nosotros_index_path %></li>
             <li style="margin-top: 10px;"><%= link_to (image_tag "logo.png"), home_index_path %></li>
             <li><%= link_to "SERVICIO", servicio_index_path %></li>

@@ -8,8 +8,8 @@ Rails.application.config.assets.version = '1.0'
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
-Rails.application.config.assets.precompile += %w( clearform.js )
-Rails.application.config.assets.precompile += %w( jquery-2.1.4.min.js )
-Rails.application.config.assets.precompile += %w( jquery-ui-datepicker.min.js )
-Rails.application.config.assets.precompile += %w( jquery.min.js )
-Rails.application.config.assets.precompile += %w( style.css )
+Rails.application.config.assets.precompile += %w( clearform.js, jquery-2.1.4.min.js, jquery-ui-datepicker.min.js, jquery.min.js, style.css )
+#Rails.application.config.assets.precompile += %w( jquery-2.1.4.min.js )
+#Rails.application.config.assets.precompile += %w( jquery-ui-datepicker.min.js )
+#Rails.application.config.assets.precompile += %w( jquery.min.js )
+#Rails.application.config.assets.precompile += %w( style.css )

@@ -396,3 +396,88 @@ Processing by ServicioController#index as HTML
   Rendered compartido/_header.html.erb (0.6ms)
 Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
   [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (21.0ms)[0m  [1mDROP DATABASE IF EXISTS `menuexpress`[0m
+  [1m[35m (0.4ms)[0m  CREATE DATABASE `menuexpress` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (17.3ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (39.6ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (13.1ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.8ms)[0m  [1mBEGIN[0m
+-------------------------------------------
+PedidoControllerTest: test_should_get_index
+-------------------------------------------
+Processing by PedidoController#index as HTML
+  Rendered pedido/index.html.erb within layouts/application (3.5ms)
+  Rendered compartido/_header.html.erb (2.0ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.6ms)
+  Rendered compartido/_footer.html.erb (0.3ms)
+Completed 200 OK in 472ms (Views: 471.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+--------------------------------------------
+LocalesControllerTest: test_should_get_index
+--------------------------------------------
+Processing by LocalesController#index as HTML
+  Rendered locales/index.html.erb within layouts/application (7.5ms)
+  Rendered compartido/_header.html.erb (0.6ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.2ms)
+  Rendered compartido/_footer.html.erb (0.1ms)
+Completed 200 OK in 81ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+----------------------------------------------
+LocalmenuControllerTest: test_should_get_index
+----------------------------------------------
+Processing by LocalmenuController#index as HTML
+  Rendered localmenu/index.html.erb within layouts/application (1.0ms)
+  Rendered compartido/_header.html.erb (1.0ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.3ms)
+  Rendered compartido/_footer.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+-----------------------------------------
+HomeControllerTest: test_should_get_index
+-----------------------------------------
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (6.9ms)
+  Rendered compartido/_header.html.erb (0.5ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.2ms)
+  Rendered compartido/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+---------------------------------------------
+ServicioControllerTest: test_should_get_index
+---------------------------------------------
+Processing by ServicioController#index as HTML
+  Rendered servicio/index.html.erb within layouts/application (1.9ms)
+  Rendered compartido/_header.html.erb (0.6ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.3ms)
+  Rendered compartido/_footer.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+---------------------------------------------
+NosotrosControllerTest: test_should_get_index
+---------------------------------------------
+Processing by NosotrosController#index as HTML
+  Rendered nosotros/index.html.erb within layouts/application (7.5ms)
+  Rendered compartido/_header.html.erb (0.6ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.2ms)
+  Rendered compartido/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+---------------------------------------------
+ContactoControllerTest: test_should_get_index
+---------------------------------------------
+Processing by ContactoController#index as HTML
+  Rendered contacto/index.html.erb within layouts/application (0.6ms)
+  Rendered compartido/_header.html.erb (0.6ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.2ms)
+  Rendered compartido/_footer.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK

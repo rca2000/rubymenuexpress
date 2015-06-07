@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  
   root 'home#index'
   get 'contacto/index'
   get 'servicio/index'
@@ -7,6 +8,8 @@ Rails.application.routes.draw do
   get 'pedido/index'
   get 'localmenu/index'
   get 'locales/index'
+  get 'registrousuario/index'
+  get 'perfil/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
