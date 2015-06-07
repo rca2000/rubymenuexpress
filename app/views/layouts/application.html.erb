@@ -4,8 +4,9 @@
         <meta charset="UTF-8">
         <title>MENÚ EXPRESS</title>
         <%= stylesheet_link_tag    'style', media: 'all', 'data-turbolinks-track' => true %>
-        <%= javascript_include_tag 's/jquery-2.1.4.min.js', 'data-turbolinks-track' => true %>
-        <%= javascript_include_tag 'js/clearform.js', 'data-turbolinks-track' => true %>
+        <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+        <%= javascript_include_tag 'jquery-2.1.4.min.js', 'data-turbolinks-track' => true %>
+        <%= javascript_include_tag 'clearform.js', 'data-turbolinks-track' => true %>
         <script type="text/javascript">
             $(function(){
                 var appendthis = ("<div class='modal-overlay js-modal-close'></div>");
