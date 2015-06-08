@@ -969,3 +969,41 @@ ul.top-level li {
 }
 /* Other Months Days*/
 .ui-datepicker-other-month .ui-state-default { color: #000000; }
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+.button {
+    cursor: pointer;
+    margin: 6px auto;
+    background: #F48329;
+    border: 1px solid #D2640C;
+	/*para Firefox*/
+	-moz-border-radius: 5px;
+	/*para Safari y Chrome*/
+	-webkit-border-radius: 5px;
+	/*para Opera IE*/
+    border-radius: 5px;
+    color: #fff;
+    width: 100px;
+    height: 25px;
+}
+.button:hover {
+    background: #D2640C;
+}
+.inputtext {
+    background: #fff;
+    border: 1px solid #799839;
+	/*para Firefox*/
+	-moz-border-radius: 5px;
+	/*para Safari y Chrome*/
+	-webkit-border-radius: 5px;
+	/*para Opera IE*/
+    border-radius: 5px;
+    padding: 0 4px;
+    height: 20px;
+    min-width: 250px;
+}
+.checkbox {
+    float: right;
+    margin: 0px;
+}

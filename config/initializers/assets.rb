@@ -13,3 +13,4 @@ Rails.application.config.assets.precompile += %w( jquery-2.1.4.min.js )
 Rails.application.config.assets.precompile += %w( jquery-ui-datepicker.min.js )
 Rails.application.config.assets.precompile += %w( jquery.min.js )
 Rails.application.config.assets.precompile += %w( style.css )
+

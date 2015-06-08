@@ -1,0 +1,15 @@
+<h1 style="margin:0px 20px 10px;">Usuario - Crear</h1>
+<hr>
+<div style="margin: 15px 30px 0px 30px;display: block;">
+    <%= simple_form_for(@user) do |f| %>
+        <%= f.input :name, :label => 'Nombre', :input_html => { :class => 'inputtext' } %>
+        <%= f.input :address, :label => 'Dirección', :input_html => { :class => 'inputtext' } %>
+        <%= f.input :district_id, :value => "Distrito" %>
+        <%= f.input :email, :label => 'Email', :placeholder => "nombre@ejemplo.com", :input_html => { :class => 'inputtext' } %>
+        <%= label_tag(:state, "Estado") %>
+        <%= f.check_box :state, {checked: false, :class => "checkbox"} %>
+        <%= f.input :password, :label => 'Contraseña', :input_html => { :class => 'inputtext' } %>
+        <%= f.input :password_confirmation, :label => 'Confirmar contraseña', :input_html => { :class => 'inputtext' } %>
+        <%= f.button :submit, :value => "Grabar", :class => 'button' %>
+    <% end %>
+</div>
