@@ -154,6 +154,12 @@ select {
 input[type="checkbox"] {
     float:left;
     margin: 0px;
+	/*para Firefox*/
+	-moz-border-radius: 5px;
+	/*para Safari y Chrome*/
+	-webkit-border-radius: 5px;
+	/*para Opera IE*/
+    border-radius: 5px;
 }
 img {
     display: block;
@@ -1001,9 +1007,17 @@ ul.top-level li {
     border-radius: 5px;
     padding: 0 4px;
     height: 20px;
-    min-width: 250px;
 }
-.checkbox {
+.checkboxright {
     float: right;
-    margin: 0px;
+}
+.select {
+    border: 1px solid #799839;
+	/*para Firefox*/
+	-moz-border-radius: 5px;
+	/*para Safari y Chrome*/
+	-webkit-border-radius: 5px;
+	/*para Opera IE*/
+    border-radius: 5px;
+    height: 20px;
 }

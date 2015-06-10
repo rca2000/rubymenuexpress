@@ -1,15 +1,16 @@
-<h1 style="margin:0px 20px 10px;">Usuario - Crear</h1>
+<h1 style="margin:10px 10px 0px;">Usuario - Crear</h1>
 <hr>
 <div style="margin: 15px 30px 0px 30px;display: block;">
     <%= simple_form_for(@user) do |f| %>
-        <%= f.input :name, :label => 'Nombre', :input_html => { :class => 'inputtext' } %>
-        <%= f.input :address, :label => 'Dirección', :input_html => { :class => 'inputtext' } %>
-        <%= f.input :district_id, :value => "Distrito" %>
-        <%= f.input :email, :label => 'Email', :placeholder => "nombre@ejemplo.com", :input_html => { :class => 'inputtext' } %>
-        <%= label_tag(:state, "Estado") %>
-        <%= f.check_box :state, {checked: false, :class => "checkbox"} %>
-        <%= f.input :password, :label => 'Contraseña', :input_html => { :class => 'inputtext' } %>
-        <%= f.input :password_confirmation, :label => 'Confirmar contraseña', :input_html => { :class => 'inputtext' } %>
+        <%= f.input :name, :label => 'Nombre', :input_html => { :class => 'inputtext', :style => 'width:400px;margin-left: 110px;margin-bottom: 10px;' } %>
+        <%= f.input :address, :label => 'Dirección', :input_html => { :class => 'inputtext', :style => 'width:400px;margin-left: 110px;margin-bottom: 10px;' } %>
+        <%= select("district_id", "district_id", district.all.collect {|p| [ p.name, p.id ] }, {prompt: 'Seleccionar Distrito'}) %>
+
+        <%= f.input :email, :label => 'Email', :placeholder => "nombre@ejemplo.com", :input_html => { :class => 'inputtext', :style => 'width:280px;margin-left: 125px;margin-bottom: 10px;' } %>
+        <%= label :state, 'Activo', :style => 'margin-left: 10px;' %>
+        <%= f.check_box :state, :style => 'margin-left: 175px;margin-top: 3px;' %>
+        <%= f.input :password, :label => 'Contraseña', :input_html => { :class => 'inputtext', :style => 'width:200px;margin-left: 85px;margin-bottom: 10px;margin-top: 10px;' } %>
+        <%= f.input :password_confirmation, :label => 'Confirmar contraseña', :input_html => { :class => 'inputtext', :style => 'width:200px;margin-left: 25px;margin-bottom: 10px;' } %>
         <%= f.button :submit, :value => "Grabar", :class => 'button' %>
     <% end %>
 </div>
