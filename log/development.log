@@ -53972,3 +53972,1271 @@ ActionView::Template::Error (undefined local variable or method `district' for #
   Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
   Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
   Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (100.2ms)
+
+
+Started GET "/" for 190.232.246.57 at 2015-06-11 04:27:25 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (24.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 44ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-11 04:27:40 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (149.5ms)
+Completed 500 Internal Server Error in 186ms (ActiveRecord: 19.2ms)
+
+ActionView::Template::Error (undefined local variable or method `district' for #<#<Class:0x000000057a7088>:0x000000057a5f58>):
+    4:     <%= simple_form_for(@user) do |f| %>
+    5:         <%= f.input :name, :label => 'Nombre', :input_html => { :class => 'inputtext', :style => 'width:400px;margin-left: 110px;margin-bottom: 10px;' } %>
+    6:         <%= f.input :address, :label => 'Dirección', :input_html => { :class => 'inputtext', :style => 'width:400px;margin-left: 110px;margin-bottom: 10px;' } %>
+    7:         <%= select("district_id", "district_id", district.all.collect {|p| [ p.name, p.id ] }, {prompt: 'Seleccionar Distrito'}) %>
+    8: 
+    9:         <%= f.input :email, :label => 'Email', :placeholder => "nombre@ejemplo.com", :input_html => { :class => 'inputtext', :style => 'width:280px;margin-left: 125px;margin-bottom: 10px;' } %>
+   10:         <%= label :state, 'Activo', :style => 'margin-left: 10px;' %>
+  app/views/users/new.html.erb:7:in `block in _app_views_users_new_html_erb___3533614411445138409_45949400'
+  app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb___3533614411445138409_45949400'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (106.3ms)
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-11 04:28:32 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (114.8ms)
+Completed 200 OK in 649ms (Views: 648.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-5d9081bc42f898759f15a5c260fba7438cda635291875c2ca863cde8d8039a28.css?body=1" for 190.232.246.57 at 2015-06-11 04:28:33 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 190.232.246.57 at 2015-06-11 04:28:33 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 190.232.246.57 at 2015-06-11 04:28:33 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-11 04:28:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 190.232.246.57 at 2015-06-11 04:28:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-11 04:28:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-11 04:28:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 190.232.246.57 at 2015-06-11 04:28:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-11 04:28:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-11 04:28:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-11 04:28:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-11 04:28:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-11 04:28:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-11 04:28:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-11 04:28:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-11 04:28:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 190.232.246.57 at 2015-06-11 04:28:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 190.232.246.57 at 2015-06-11 04:28:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-11 04:28:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-11 04:28:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 190.232.246.57 at 2015-06-12 05:06:04 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (21.7ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (3.4ms)
+Completed 200 OK in 30ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 190.232.246.57 at 2015-06-12 05:06:11 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-12 05:06:32 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (203.6ms)
+Completed 200 OK in 624ms (Views: 595.6ms | ActiveRecord: 17.6ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 190.232.246.57 at 2015-06-12 05:06:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 05:06:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 05:06:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 190.232.246.57 at 2015-06-12 05:06:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 190.232.246.57 at 2015-06-12 05:06:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 190.232.246.57 at 2015-06-12 05:06:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 190.232.246.57 at 2015-06-12 05:06:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:06:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:06:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:06:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:06:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:06:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:06:36 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:06:36 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:06:36 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:06:36 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 190.232.246.57 at 2015-06-12 05:06:36 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-12 05:10:54 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (106.4ms)
+Completed 500 Internal Server Error in 128ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( style.css )` to `config/initializers/assets.rb` and restart your server):
+    3:     <head>
+    4:         <meta charset="UTF-8">
+    5:         <title>MENÚ EXPRESS</title>
+    6:         <%= stylesheet_link_tag    'style', media: 'all', 'data-turbolinks-track' => true %>
+    7:         <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    8:         <%= javascript_include_tag 'jquery-2.1.4.min.js', 'data-turbolinks-track' => true %>
+    9:         <%= javascript_include_tag 'clearform.js', 'data-turbolinks-track' => true %>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2603988458971225987_69939115676460'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (97.9ms)
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-12 05:11:33 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (143.4ms)
+Completed 200 OK in 567ms (Views: 544.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/style.self-833b8d85699e40406d2a73d4c1ce0b3351bf4cbbb7bf387f8f5a2b2a2d5b127f.css?body=1" for 190.232.246.57 at 2015-06-12 05:11:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:11:34 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:11:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 05:11:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 190.232.246.57 at 2015-06-12 05:11:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 05:11:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:11:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 190.232.246.57 at 2015-06-12 05:11:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:11:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:11:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:11:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:11:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:11:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:11:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 190.232.246.57 at 2015-06-12 05:11:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 190.232.246.57 at 2015-06-12 05:11:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 190.232.246.57 at 2015-06-12 05:11:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 190.232.246.57 at 2015-06-12 05:11:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets" for 190.232.246.57 at 2015-06-12 05:11:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap" for 190.232.246.57 at 2015-06-12 05:11:35 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 05:11:36 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 05:11:36 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-12 05:13:47 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (105.7ms)
+Completed 200 OK in 4699ms (Views: 4697.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-c89fa49092ccc940c7887df9eed1178bcb71d655420f1181a7ba897c05ce06fa.css?body=1" for 190.232.246.57 at 2015-06-12 05:13:52 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 190.232.246.57 at 2015-06-12 05:13:52 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 190.232.246.57 at 2015-06-12 05:13:52 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 190.232.246.57 at 2015-06-12 05:13:52 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 05:13:52 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 05:13:52 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 190.232.246.57 at 2015-06-12 05:13:52 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 190.232.246.57 at 2015-06-12 05:13:52 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:13:52 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:13:52 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:13:52 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:13:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:13:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:13:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:13:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:13:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:13:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 190.232.246.57 at 2015-06-12 05:13:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 05:13:55 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 05:13:55 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-12 05:15:37 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (37.5ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `district' for #<#<Class:0x000000059eef80>:0x007f7ce5bcf908>):
+    4:     <%= simple_form_for(@user) do |f| %>
+    5:         <%= f.input :name, :label => 'Nombre' %>
+    6:         <%= f.input :address, :label => 'Dirección' %>
+    7:         <%= select("district_id", "district_id", district.all.collect {|p| [ p.name, p.id ] }, {prompt: 'Seleccionar Distrito'}) %>
+    8: 
+    9:         <%= f.input :email, :label => 'Email', :placeholder => "nombre@ejemplo.com" %>
+   10:         <%= label :state, 'Activo', :style => 'margin-left: 10px;' %>
+  app/views/users/new.html.erb:7:in `block in _app_views_users_new_html_erb__3352521997383130971_70087203517220'
+  app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__3352521997383130971_70087203517220'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (38.2ms)
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-12 05:16:14 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (37.1ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `empty?' for nil:NilClass):
+    4:     <%= simple_form_for(@user) do |f| %>
+    5:         <%= f.input :name, :label => 'Nombre' %>
+    6:         <%= f.input :address, :label => 'Dirección' %>
+    7:         <%= select("district_id", :label => 'Distrito') %>
+    8: 
+    9:         <%= f.input :email, :label => 'Email', :placeholder => "nombre@ejemplo.com" %>
+   10:         <%= label :state, 'Activo', :style => 'margin-left: 10px;' %>
+  app/views/users/new.html.erb:7:in `block in _app_views_users_new_html_erb__3352521997383130971_70087108584880'
+  app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__3352521997383130971_70087108584880'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.3ms)
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-12 05:17:11 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (25.3ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `empty?' for nil:NilClass):
+    4:     <%= simple_form_for(@user) do |f| %>
+    5:         <%= f.input :name, :label => 'Nombre' %>
+    6:         <%= f.input :address, :label => 'Dirección' %>
+    7:         <%= select("district_id", :label => 'Distrito') %>
+    8: 
+    9:         <%= f.input :email, :label => 'Email', :placeholder => "nombre@ejemplo.com" %>
+   10:         <%= label :state, 'Activo' %>
+  app/views/users/new.html.erb:7:in `block in _app_views_users_new_html_erb__3352521997383130971_70087106914260'
+  app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__3352521997383130971_70087106914260'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (94.4ms)
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-12 05:17:30 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (227.7ms)
+Completed 200 OK in 434ms (Views: 432.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-c89fa49092ccc940c7887df9eed1178bcb71d655420f1181a7ba897c05ce06fa.css?body=1" for 190.232.246.57 at 2015-06-12 05:17:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 190.232.246.57 at 2015-06-12 05:17:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 190.232.246.57 at 2015-06-12 05:17:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 190.232.246.57 at 2015-06-12 05:17:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 190.232.246.57 at 2015-06-12 05:17:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 190.232.246.57 at 2015-06-12 05:17:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 05:17:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 05:17:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:17:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:17:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:17:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:17:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:17:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:17:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:17:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:17:32 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:17:32 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 190.232.246.57 at 2015-06-12 05:17:32 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 05:17:32 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 05:17:32 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-12 05:18:16 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (75.1ms)
+Completed 200 OK in 174ms (Views: 172.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-c89fa49092ccc940c7887df9eed1178bcb71d655420f1181a7ba897c05ce06fa.css?body=1" for 190.232.246.57 at 2015-06-12 05:18:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:18 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-12 05:18:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (154.3ms)
+Completed 200 OK in 308ms (Views: 307.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-c89fa49092ccc940c7887df9eed1178bcb71d655420f1181a7ba897c05ce06fa.css?body=1" for 190.232.246.57 at 2015-06-12 05:18:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:31 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:32 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:32 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:32 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:32 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:32 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:32 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:32 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 05:18:32 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-12 05:19:24 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (34.2ms)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `distrito_id' for #<User:0x007f7cda784750>):
+    4:     <%= simple_form_for(@user) do |f| %>
+    5:         <%= f.input :name, :label => 'Nombre' %>
+    6:         <%= f.input :address, :label => 'Dirección' %>
+    7:         <%= f.input :distrito_id, :label => 'Distrito' %>
+    8: 
+    9:         <%= f.input :email, :label => 'Email', :placeholder => "nombre@ejemplo.com" %>
+   10:         <%= label :state, 'Activo' %>
+  app/views/users/new.html.erb:7:in `block in _app_views_users_new_html_erb__3352521997383130971_70087109440960'
+  app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__3352521997383130971_70087109440960'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (65.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (97.7ms)
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-12 05:19:52 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (190.7ms)
+Completed 200 OK in 351ms (Views: 349.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-c89fa49092ccc940c7887df9eed1178bcb71d655420f1181a7ba897c05ce06fa.css?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 05:19:53 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-12 05:20:19 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (74.3ms)
+Completed 200 OK in 168ms (Views: 167.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-c89fa49092ccc940c7887df9eed1178bcb71d655420f1181a7ba897c05ce06fa.css?body=1" for 190.232.246.57 at 2015-06-12 05:20:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 190.232.246.57 at 2015-06-12 05:20:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 190.232.246.57 at 2015-06-12 05:20:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 190.232.246.57 at 2015-06-12 05:20:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 05:20:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 05:20:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 190.232.246.57 at 2015-06-12 05:20:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 190.232.246.57 at 2015-06-12 05:20:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:20:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:20:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:20:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:20:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:20:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:20:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:20:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:20:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:20:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 190.232.246.57 at 2015-06-12 05:20:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 05:20:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 05:20:21 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-12 05:21:44 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.6ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (232.5ms)
+Completed 200 OK in 725ms (Views: 700.4ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/style.self-c89fa49092ccc940c7887df9eed1178bcb71d655420f1181a7ba897c05ce06fa.css?body=1" for 190.232.246.57 at 2015-06-12 05:21:45 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 190.232.246.57 at 2015-06-12 05:21:45 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 190.232.246.57 at 2015-06-12 05:21:45 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 190.232.246.57 at 2015-06-12 05:21:45 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 05:21:45 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 05:21:45 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 190.232.246.57 at 2015-06-12 05:21:45 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 190.232.246.57 at 2015-06-12 05:21:45 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:21:45 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:21:45 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:21:45 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:21:45 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:21:45 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:21:45 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:21:45 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:21:45 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 05:21:45 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 190.232.246.57 at 2015-06-12 05:21:45 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 05:21:46 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 05:21:46 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 190.232.246.57 at 2015-06-12 10:43:19 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 23ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 190.232.246.57 at 2015-06-12 10:43:28 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-12 10:43:38 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (238.6ms)
+Completed 200 OK in 715ms (Views: 703.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/style.self-c89fa49092ccc940c7887df9eed1178bcb71d655420f1181a7ba897c05ce06fa.css?body=1" for 190.232.246.57 at 2015-06-12 10:43:39 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 190.232.246.57 at 2015-06-12 10:43:39 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 190.232.246.57 at 2015-06-12 10:43:39 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 190.232.246.57 at 2015-06-12 10:43:39 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 10:43:39 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 10:43:39 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 190.232.246.57 at 2015-06-12 10:43:40 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 190.232.246.57 at 2015-06-12 10:43:40 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 10:43:40 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 10:43:40 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 10:43:40 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 10:43:40 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 10:43:40 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 10:43:40 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 10:43:40 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 10:43:40 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 10:43:41 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 190.232.246.57 at 2015-06-12 10:43:41 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-12 11:05:02 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (95.1ms)
+Completed 500 Internal Server Error in 161ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( bootstrap.css )` to `config/initializers/assets.rb` and restart your server):
+    3:     <head>
+    4:         <meta charset="UTF-8">
+    5:         <title>MENÚ EXPRESS</title>
+    6:         <%= stylesheet_link_tag    'bootstrap', media: 'all', 'data-turbolinks-track' => true %>
+    7:         <%= stylesheet_link_tag    'bootstrap-theme', media: 'all', 'data-turbolinks-track' => true %>
+    8:         <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    9:         <%= javascript_include_tag 'jquery-2.1.4.min.js', 'data-turbolinks-track' => true %>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___677012014782683949_70092306701060'
+
+
+
+
+Started GET "/" for 190.232.246.57 at 2015-06-12 11:05:37 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (3.4ms)
+Completed 200 OK in 30ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 190.232.246.57 at 2015-06-12 11:05:43 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-12 11:05:58 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (235.5ms)
+Completed 200 OK in 907ms (Views: 879.6ms | ActiveRecord: 8.4ms)
+
+
+Started GET "/assets/bootstrap.self-8c0a18ef497d6248739c038ca99120e435b9d0ac33120bf065cd090558f70e73.css?body=1" for 190.232.246.57 at 2015-06-12 11:06:01 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-theme.self-002ec18c4ef1b94201d2f1b5b85e40bd5cc828a9a5f0561f74e39fb0ff1e3228.css?body=1" for 190.232.246.57 at 2015-06-12 11:06:02 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 190.232.246.57 at 2015-06-12 11:08:17 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (83.4ms)
+Completed 200 OK in 239ms (Views: 237.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-8c0a18ef497d6248739c038ca99120e435b9d0ac33120bf065cd090558f70e73.css?body=1" for 190.232.246.57 at 2015-06-12 11:08:18 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:19 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:19 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:19 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:19 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:19 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-theme.self-002ec18c4ef1b94201d2f1b5b85e40bd5cc828a9a5f0561f74e39fb0ff1e3228.css?body=1" for 190.232.246.57 at 2015-06-12 11:08:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:20 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:21 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:21 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:21 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:21 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:21 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:22 +0000
+Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
