@@ -35,13 +35,6 @@ gem 'authlogic', '3.4.5'
 #A generalized Rack framework for multiple-provider authentication.
 gem 'omniauth', '1.2.2'
 
-#Forms made easy!
-gem 'simple_form', '3.1.0'
-#Every Rails page has footnotes that gives information about your application and links back to your editor.
-gem 'rails-footnotes', '4.1.7'
-#Twitter's Bootstrap, converted to Sass and ready to drop into Rails or Compass
-gem 'bootstrap-sass', '3.3.4.1'
-
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -55240,3 +55240,1634 @@ Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127
 
 Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 190.232.246.57 at 2015-06-12 11:08:22 +0000
 Cannot render console from 190.232.246.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 03:39:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (4.8ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 26ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 201.230.92.121 at 2015-06-13 03:40:19 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/home/index"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (14.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (58.7ms)
+
+
+Started GET "/home" for 201.230.92.121 at 2015-06-13 03:40:47 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.0ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 03:40:54 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 03:41:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (378.3ms)
+Completed 200 OK in 636ms (Views: 619.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-8c0a18ef497d6248739c038ca99120e435b9d0ac33120bf065cd090558f70e73.css?body=1" for 201.230.92.121 at 2015-06-13 03:41:29 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-theme.self-002ec18c4ef1b94201d2f1b5b85e40bd5cc828a9a5f0561f74e39fb0ff1e3228.css?body=1" for 201.230.92.121 at 2015-06-13 03:41:29 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 201.230.92.121 at 2015-06-13 03:41:29 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 201.230.92.121 at 2015-06-13 03:41:29 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 201.230.92.121 at 2015-06-13 03:41:29 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 201.230.92.121 at 2015-06-13 03:41:30 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 201.230.92.121 at 2015-06-13 03:41:30 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 201.230.92.121 at 2015-06-13 03:41:30 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 201.230.92.121 at 2015-06-13 03:41:30 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 03:41:30 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 03:41:30 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 03:41:31 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 03:41:31 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 03:41:31 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 03:41:31 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 03:41:31 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 03:41:31 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 03:41:31 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 201.230.92.121 at 2015-06-13 03:41:31 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food1-423467205d52a7241e1b284089c89b9f4596025e151b652b2433286ffff3ea68.jpg" for 201.230.92.121 at 2015-06-13 03:41:31 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food2-845ee88883d77f66669839786f58a58906843048da3d822f24023e469302990c.jpg" for 201.230.92.121 at 2015-06-13 03:41:31 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food3-fc302f153a7098eb1c807e0eeb8a04773a994430424294020464ed7e7296dc0c.jpg" for 201.230.92.121 at 2015-06-13 03:41:32 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food4-1c018c8047ab646dd6a11747f3c4a3bb6c3f24e8eef13bcc953fc65baace2c88.jpg" for 201.230.92.121 at 2015-06-13 03:41:32 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food5-cfab7acf989504aa8c1839fa77f09b67e9bd02ebfa6fc31edc8f544da3cfa4db.jpg" for 201.230.92.121 at 2015-06-13 03:41:32 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food6-bd01f846f8b06d8c1eb0cc658516d16d825e7b104dd613be66c8e99249afa040.jpg" for 201.230.92.121 at 2015-06-13 03:41:32 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 03:41:57 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 145ms (Views: 143.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 03:43:58 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (235.3ms)
+Completed 200 OK in 643ms (Views: 628.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-7363e519589d183d075ce73d0fb7b1e30cca6f1aef2868cefe5025189a11947d.css?body=1" for 201.230.92.121 at 2015-06-13 03:43:59 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-8c0a18ef497d6248739c038ca99120e435b9d0ac33120bf065cd090558f70e73.css?body=1" for 201.230.92.121 at 2015-06-13 03:43:59 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-theme.self-002ec18c4ef1b94201d2f1b5b85e40bd5cc828a9a5f0561f74e39fb0ff1e3228.css?body=1" for 201.230.92.121 at 2015-06-13 03:43:59 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 201.230.92.121 at 2015-06-13 03:43:59 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 201.230.92.121 at 2015-06-13 03:43:59 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 201.230.92.121 at 2015-06-13 03:43:59 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 201.230.92.121 at 2015-06-13 03:43:59 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 201.230.92.121 at 2015-06-13 03:43:59 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 201.230.92.121 at 2015-06-13 03:44:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 201.230.92.121 at 2015-06-13 03:44:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 03:44:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 03:44:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 03:44:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 03:44:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 03:44:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 03:44:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 03:44:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 03:44:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 03:44:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 201.230.92.121 at 2015-06-13 03:44:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food1-423467205d52a7241e1b284089c89b9f4596025e151b652b2433286ffff3ea68.jpg" for 201.230.92.121 at 2015-06-13 03:44:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food2-845ee88883d77f66669839786f58a58906843048da3d822f24023e469302990c.jpg" for 201.230.92.121 at 2015-06-13 03:44:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food3-fc302f153a7098eb1c807e0eeb8a04773a994430424294020464ed7e7296dc0c.jpg" for 201.230.92.121 at 2015-06-13 03:44:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food4-1c018c8047ab646dd6a11747f3c4a3bb6c3f24e8eef13bcc953fc65baace2c88.jpg" for 201.230.92.121 at 2015-06-13 03:44:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food5-cfab7acf989504aa8c1839fa77f09b67e9bd02ebfa6fc31edc8f544da3cfa4db.jpg" for 201.230.92.121 at 2015-06-13 03:44:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food6-bd01f846f8b06d8c1eb0cc658516d16d825e7b104dd613be66c8e99249afa040.jpg" for 201.230.92.121 at 2015-06-13 03:44:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 04:04:26 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (350.0ms)
+  Rendered compartido/_header.html.erb (12.5ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.7ms)
+  Rendered compartido/_footer.html.erb (0.8ms)
+Completed 200 OK in 616ms (Views: 597.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo-c6efb8e93c727cf4a0e345cf20c96570a25b8c8b2954d63574d46e95d518f590.png" for 201.230.92.121 at 2015-06-13 04:04:27 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/img/bg_menu.png" for 201.230.92.121 at 2015-06-13 04:04:27 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/img/bg_menu.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (19.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (70.1ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 04:04:52 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (15.3ms)
+  Rendered compartido/_header.html.erb (2.1ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.3ms)
+  Rendered compartido/_footer.html.erb (0.2ms)
+Completed 200 OK in 194ms (Views: 193.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/img/bg_menu.png" for 201.230.92.121 at 2015-06-13 04:04:53 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/img/bg_menu.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (93.2ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 04:05:27 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.2ms)
+  Rendered compartido/_header.html.erb (2.4ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.4ms)
+  Rendered compartido/_footer.html.erb (0.3ms)
+Completed 200 OK in 301ms (Views: 300.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-7363e519589d183d075ce73d0fb7b1e30cca6f1aef2868cefe5025189a11947d.css?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-8c0a18ef497d6248739c038ca99120e435b9d0ac33120bf065cd090558f70e73.css?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-theme.self-002ec18c4ef1b94201d2f1b5b85e40bd5cc828a9a5f0561f74e39fb0ff1e3228.css?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food1-423467205d52a7241e1b284089c89b9f4596025e151b652b2433286ffff3ea68.jpg" for 201.230.92.121 at 2015-06-13 04:05:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/logo-c6efb8e93c727cf4a0e345cf20c96570a25b8c8b2954d63574d46e95d518f590.png" for 201.230.92.121 at 2015-06-13 04:05:29 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food2-845ee88883d77f66669839786f58a58906843048da3d822f24023e469302990c.jpg" for 201.230.92.121 at 2015-06-13 04:05:29 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food3-fc302f153a7098eb1c807e0eeb8a04773a994430424294020464ed7e7296dc0c.jpg" for 201.230.92.121 at 2015-06-13 04:05:29 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food4-1c018c8047ab646dd6a11747f3c4a3bb6c3f24e8eef13bcc953fc65baace2c88.jpg" for 201.230.92.121 at 2015-06-13 04:05:29 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food5-cfab7acf989504aa8c1839fa77f09b67e9bd02ebfa6fc31edc8f544da3cfa4db.jpg" for 201.230.92.121 at 2015-06-13 04:05:29 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food6-bd01f846f8b06d8c1eb0cc658516d16d825e7b104dd613be66c8e99249afa040.jpg" for 201.230.92.121 at 2015-06-13 04:05:29 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 04:06:24 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (284.0ms)
+  Rendered compartido/_header.html.erb (2.9ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.6ms)
+  Rendered compartido/_footer.html.erb (0.7ms)
+Completed 200 OK in 423ms (Views: 412.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 07:05:37 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (11.7ms)
+  Rendered compartido/_header.html.erb (1.8ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.3ms)
+  Rendered compartido/_footer.html.erb (0.4ms)
+Completed 200 OK in 153ms (Views: 152.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/img/bg_menu.png" for 201.230.92.121 at 2015-06-13 07:05:38 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/img/bg_menu.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (36.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (91.4ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 07:07:25 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (278.8ms)
+  Rendered compartido/_header.html.erb (2.9ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.6ms)
+  Rendered compartido/_footer.html.erb (0.6ms)
+Completed 200 OK in 557ms (Views: 539.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/img/bg_menu.png" for 201.230.92.121 at 2015-06-13 07:07:26 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/img/bg_menu.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.9ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 07:09:06 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (243.8ms)
+  Rendered compartido/_header.html.erb (3.0ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.7ms)
+  Rendered compartido/_footer.html.erb (0.5ms)
+Completed 200 OK in 428ms (Views: 417.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-7363e519589d183d075ce73d0fb7b1e30cca6f1aef2868cefe5025189a11947d.css?body=1" for 201.230.92.121 at 2015-06-13 07:09:07 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 201.230.92.121 at 2015-06-13 07:09:07 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 201.230.92.121 at 2015-06-13 07:09:07 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 201.230.92.121 at 2015-06-13 07:09:07 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 201.230.92.121 at 2015-06-13 07:09:07 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 201.230.92.121 at 2015-06-13 07:09:07 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 201.230.92.121 at 2015-06-13 07:09:08 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 201.230.92.121 at 2015-06-13 07:09:08 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:09:08 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:09:08 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:09:08 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:09:08 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:09:08 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:09:08 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:09:09 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:09:09 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:09:09 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 201.230.92.121 at 2015-06-13 07:09:09 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/logo-c6efb8e93c727cf4a0e345cf20c96570a25b8c8b2954d63574d46e95d518f590.png" for 201.230.92.121 at 2015-06-13 07:09:10 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food1-423467205d52a7241e1b284089c89b9f4596025e151b652b2433286ffff3ea68.jpg" for 201.230.92.121 at 2015-06-13 07:09:10 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food4-1c018c8047ab646dd6a11747f3c4a3bb6c3f24e8eef13bcc953fc65baace2c88.jpg" for 201.230.92.121 at 2015-06-13 07:09:10 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food3-fc302f153a7098eb1c807e0eeb8a04773a994430424294020464ed7e7296dc0c.jpg" for 201.230.92.121 at 2015-06-13 07:09:11 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food2-845ee88883d77f66669839786f58a58906843048da3d822f24023e469302990c.jpg" for 201.230.92.121 at 2015-06-13 07:09:11 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food5-cfab7acf989504aa8c1839fa77f09b67e9bd02ebfa6fc31edc8f544da3cfa4db.jpg" for 201.230.92.121 at 2015-06-13 07:09:11 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food6-bd01f846f8b06d8c1eb0cc658516d16d825e7b104dd613be66c8e99249afa040.jpg" for 201.230.92.121 at 2015-06-13 07:09:11 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/img/bg_menu.png" for 201.230.92.121 at 2015-06-13 07:09:11 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/img/bg_menu.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (45.2ms)
+
+
+Started GET "/nosotros/index" for 201.230.92.121 at 2015-06-13 07:09:19 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NosotrosController#index as HTML
+  Rendered nosotros/index.html.erb within layouts/application (8.6ms)
+  Rendered compartido/_header.html.erb (2.4ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.6ms)
+  Rendered compartido/_footer.html.erb (0.6ms)
+Completed 200 OK in 94ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/equipo-901816bcdee501169ae67e6258f0a34e96c4f67845492a979e076bd7584ba380.png" for 201.230.92.121 at 2015-06-13 07:09:20 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 07:09:22 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (9.4ms)
+  Rendered compartido/_header.html.erb (1.8ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.2ms)
+  Rendered compartido/_footer.html.erb (0.2ms)
+Completed 200 OK in 114ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 07:15:07 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (263.5ms)
+  Rendered compartido/_header.html.erb (6.5ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.9ms)
+  Rendered compartido/_footer.html.erb (0.9ms)
+Completed 200 OK in 610ms (Views: 596.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 07:16:16 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (245.0ms)
+  Rendered compartido/_header.html.erb (2.9ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.8ms)
+  Rendered compartido/_footer.html.erb (0.5ms)
+Completed 200 OK in 432ms (Views: 420.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 07:17:54 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (236.9ms)
+  Rendered compartido/_header.html.erb (2.9ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.7ms)
+  Rendered compartido/_footer.html.erb (0.5ms)
+Completed 200 OK in 429ms (Views: 417.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-fe47e186347aa08808d4261aac37a3092da17e3bf842d2c2927b2ae9e1fac6cf.css?body=1" for 201.230.92.121 at 2015-06-13 07:17:55 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/images/bg_menu.png" for 201.230.92.121 at 2015-06-13 07:17:55 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/bg_menu.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (47.8ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 07:18:13 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (8.8ms)
+  Rendered compartido/_header.html.erb (2.0ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.2ms)
+  Rendered compartido/_footer.html.erb (0.2ms)
+Completed 200 OK in 83ms (Views: 81.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg_menu.png" for 201.230.92.121 at 2015-06-13 07:18:14 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/bg_menu.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.1ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 07:18:38 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (9.1ms)
+  Rendered compartido/_header.html.erb (2.3ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.3ms)
+  Rendered compartido/_footer.html.erb (0.4ms)
+Completed 200 OK in 107ms (Views: 105.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-51642c739be63543b60c4e3d8c498378b4d20df1261248f17ae015c99f36c989.css?body=1" for 201.230.92.121 at 2015-06-13 07:18:38 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:38 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:38 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:38 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:38 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:38 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/logo-c6efb8e93c727cf4a0e345cf20c96570a25b8c8b2954d63574d46e95d518f590.png" for 201.230.92.121 at 2015-06-13 07:18:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food1-423467205d52a7241e1b284089c89b9f4596025e151b652b2433286ffff3ea68.jpg" for 201.230.92.121 at 2015-06-13 07:18:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food2-845ee88883d77f66669839786f58a58906843048da3d822f24023e469302990c.jpg" for 201.230.92.121 at 2015-06-13 07:18:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food3-fc302f153a7098eb1c807e0eeb8a04773a994430424294020464ed7e7296dc0c.jpg" for 201.230.92.121 at 2015-06-13 07:18:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food4-1c018c8047ab646dd6a11747f3c4a3bb6c3f24e8eef13bcc953fc65baace2c88.jpg" for 201.230.92.121 at 2015-06-13 07:18:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food5-cfab7acf989504aa8c1839fa77f09b67e9bd02ebfa6fc31edc8f544da3cfa4db.jpg" for 201.230.92.121 at 2015-06-13 07:18:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food6-bd01f846f8b06d8c1eb0cc658516d16d825e7b104dd613be66c8e99249afa040.jpg" for 201.230.92.121 at 2015-06-13 07:18:40 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/images/bg_menu.png" for 201.230.92.121 at 2015-06-13 07:18:40 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/bg_menu.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.3ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 07:18:47 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (8.9ms)
+  Rendered compartido/_header.html.erb (1.9ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.2ms)
+  Rendered compartido/_footer.html.erb (0.3ms)
+Completed 200 OK in 114ms (Views: 113.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-d2c1adf3e8f1099a93dcc178fb9ca2c22a5d9a3c957f7cf8beaf8bafa61517ab.css?body=1" for 201.230.92.121 at 2015-06-13 07:18:48 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:48 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:48 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:48 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:48 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:48 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:48 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:48 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:48 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:48 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:48 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:48 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:48 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:48 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:48 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:49 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:49 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 201.230.92.121 at 2015-06-13 07:18:49 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/logo-c6efb8e93c727cf4a0e345cf20c96570a25b8c8b2954d63574d46e95d518f590.png" for 201.230.92.121 at 2015-06-13 07:18:49 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food1-423467205d52a7241e1b284089c89b9f4596025e151b652b2433286ffff3ea68.jpg" for 201.230.92.121 at 2015-06-13 07:18:49 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food2-845ee88883d77f66669839786f58a58906843048da3d822f24023e469302990c.jpg" for 201.230.92.121 at 2015-06-13 07:18:49 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food3-fc302f153a7098eb1c807e0eeb8a04773a994430424294020464ed7e7296dc0c.jpg" for 201.230.92.121 at 2015-06-13 07:18:49 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food4-1c018c8047ab646dd6a11747f3c4a3bb6c3f24e8eef13bcc953fc65baace2c88.jpg" for 201.230.92.121 at 2015-06-13 07:18:49 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food5-cfab7acf989504aa8c1839fa77f09b67e9bd02ebfa6fc31edc8f544da3cfa4db.jpg" for 201.230.92.121 at 2015-06-13 07:18:49 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/images/bg_menu.png" for 201.230.92.121 at 2015-06-13 07:18:49 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bg_menu.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.6ms)
+
+
+Started GET "/assets/food/food6-bd01f846f8b06d8c1eb0cc658516d16d825e7b104dd613be66c8e99249afa040.jpg" for 201.230.92.121 at 2015-06-13 07:18:49 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 07:19:13 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (9.3ms)
+  Rendered compartido/_header.html.erb (1.7ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.2ms)
+  Rendered compartido/_footer.html.erb (0.2ms)
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-51642c739be63543b60c4e3d8c498378b4d20df1261248f17ae015c99f36c989.css?body=1" for 201.230.92.121 at 2015-06-13 07:19:13 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 201.230.92.121 at 2015-06-13 07:19:13 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 201.230.92.121 at 2015-06-13 07:19:13 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 201.230.92.121 at 2015-06-13 07:19:13 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 201.230.92.121 at 2015-06-13 07:19:13 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 201.230.92.121 at 2015-06-13 07:19:13 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 201.230.92.121 at 2015-06-13 07:19:13 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 201.230.92.121 at 2015-06-13 07:19:13 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:19:13 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:19:13 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:19:14 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:19:14 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:19:14 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:19:14 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:19:14 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:19:14 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:19:14 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 201.230.92.121 at 2015-06-13 07:19:14 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/logo-c6efb8e93c727cf4a0e345cf20c96570a25b8c8b2954d63574d46e95d518f590.png" for 201.230.92.121 at 2015-06-13 07:19:14 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food1-423467205d52a7241e1b284089c89b9f4596025e151b652b2433286ffff3ea68.jpg" for 201.230.92.121 at 2015-06-13 07:19:14 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food2-845ee88883d77f66669839786f58a58906843048da3d822f24023e469302990c.jpg" for 201.230.92.121 at 2015-06-13 07:19:14 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food3-fc302f153a7098eb1c807e0eeb8a04773a994430424294020464ed7e7296dc0c.jpg" for 201.230.92.121 at 2015-06-13 07:19:14 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food4-1c018c8047ab646dd6a11747f3c4a3bb6c3f24e8eef13bcc953fc65baace2c88.jpg" for 201.230.92.121 at 2015-06-13 07:19:15 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food5-cfab7acf989504aa8c1839fa77f09b67e9bd02ebfa6fc31edc8f544da3cfa4db.jpg" for 201.230.92.121 at 2015-06-13 07:19:15 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food6-bd01f846f8b06d8c1eb0cc658516d16d825e7b104dd613be66c8e99249afa040.jpg" for 201.230.92.121 at 2015-06-13 07:19:15 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/images/bg_menu.png" for 201.230.92.121 at 2015-06-13 07:19:35 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/bg_menu.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (38.8ms)
+
+
+Started GET "/assets/bg_menu.png" for 201.230.92.121 at 2015-06-13 07:19:42 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 07:20:01 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.7ms)
+  Rendered compartido/_header.html.erb (2.4ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.4ms)
+  Rendered compartido/_footer.html.erb (0.2ms)
+Completed 200 OK in 119ms (Views: 117.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-a670fa1c87cb84d387f10a38059870c11af42ba0f1041abbe7b1e0ab6266d612.css?body=1" for 201.230.92.121 at 2015-06-13 07:20:01 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 201.230.92.121 at 2015-06-13 07:20:01 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 201.230.92.121 at 2015-06-13 07:20:01 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 201.230.92.121 at 2015-06-13 07:20:01 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 201.230.92.121 at 2015-06-13 07:20:01 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 201.230.92.121 at 2015-06-13 07:20:01 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 201.230.92.121 at 2015-06-13 07:20:01 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 201.230.92.121 at 2015-06-13 07:20:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:20:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:20:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:20:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:20:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:20:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:20:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:20:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:20:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:20:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 201.230.92.121 at 2015-06-13 07:20:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/logo-c6efb8e93c727cf4a0e345cf20c96570a25b8c8b2954d63574d46e95d518f590.png" for 201.230.92.121 at 2015-06-13 07:20:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food1-423467205d52a7241e1b284089c89b9f4596025e151b652b2433286ffff3ea68.jpg" for 201.230.92.121 at 2015-06-13 07:20:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food2-845ee88883d77f66669839786f58a58906843048da3d822f24023e469302990c.jpg" for 201.230.92.121 at 2015-06-13 07:20:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food3-fc302f153a7098eb1c807e0eeb8a04773a994430424294020464ed7e7296dc0c.jpg" for 201.230.92.121 at 2015-06-13 07:20:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food4-1c018c8047ab646dd6a11747f3c4a3bb6c3f24e8eef13bcc953fc65baace2c88.jpg" for 201.230.92.121 at 2015-06-13 07:20:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food5-cfab7acf989504aa8c1839fa77f09b67e9bd02ebfa6fc31edc8f544da3cfa4db.jpg" for 201.230.92.121 at 2015-06-13 07:20:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food6-bd01f846f8b06d8c1eb0cc658516d16d825e7b104dd613be66c8e99249afa040.jpg" for 201.230.92.121 at 2015-06-13 07:20:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bg_menu.png" for 201.230.92.121 at 2015-06-13 07:20:03 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 07:22:40 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (8.6ms)
+  Rendered compartido/_header.html.erb (1.8ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.2ms)
+  Rendered compartido/_footer.html.erb (0.3ms)
+Completed 200 OK in 103ms (Views: 102.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-6b569a2b49a0dabbd4f2ddd62dac2f27009ae42599093abbc3ca26da5f916718.css?body=1" for 201.230.92.121 at 2015-06-13 07:22:40 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 201.230.92.121 at 2015-06-13 07:22:40 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 201.230.92.121 at 2015-06-13 07:22:40 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 201.230.92.121 at 2015-06-13 07:22:40 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/clearform.self-8df3d8e685e1329cc1954bed2b81a3aea49cd1d0974add202955bdb05d5f2cbc.js?body=1" for 201.230.92.121 at 2015-06-13 07:22:40 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-2.1.4.min.self-92bfaaece1eee1e40fd3b55441ee536e7f6a03242aa5fe10e2597a27103c9dae.js?body=1" for 201.230.92.121 at 2015-06-13 07:22:40 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-ui-datepicker.min.self-262b12b291504c85b5d92b87c4991d8fe652ce408838acfc2eeb919726b6e99a.js?body=1" for 201.230.92.121 at 2015-06-13 07:22:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.min.self-c1d791acae21839c8e7c220a29e7dc5c370200c8ac86da91be5dc3823c116e65.js?body=1" for 201.230.92.121 at 2015-06-13 07:22:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/locales.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:22:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/localmenu.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:22:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nosotros.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:22:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pedido.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:22:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/perfil.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:22:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrousuario.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:22:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/servicio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:22:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:22:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-13 07:22:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 201.230.92.121 at 2015-06-13 07:22:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/logo-c6efb8e93c727cf4a0e345cf20c96570a25b8c8b2954d63574d46e95d518f590.png" for 201.230.92.121 at 2015-06-13 07:22:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food1-423467205d52a7241e1b284089c89b9f4596025e151b652b2433286ffff3ea68.jpg" for 201.230.92.121 at 2015-06-13 07:22:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food2-845ee88883d77f66669839786f58a58906843048da3d822f24023e469302990c.jpg" for 201.230.92.121 at 2015-06-13 07:22:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food3-fc302f153a7098eb1c807e0eeb8a04773a994430424294020464ed7e7296dc0c.jpg" for 201.230.92.121 at 2015-06-13 07:22:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food4-1c018c8047ab646dd6a11747f3c4a3bb6c3f24e8eef13bcc953fc65baace2c88.jpg" for 201.230.92.121 at 2015-06-13 07:22:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food5-cfab7acf989504aa8c1839fa77f09b67e9bd02ebfa6fc31edc8f544da3cfa4db.jpg" for 201.230.92.121 at 2015-06-13 07:22:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food6-bd01f846f8b06d8c1eb0cc658516d16d825e7b104dd613be66c8e99249afa040.jpg" for 201.230.92.121 at 2015-06-13 07:22:42 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bg_menu.png" for 201.230.92.121 at 2015-06-13 07:22:42 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/nosotros/index" for 201.230.92.121 at 2015-06-13 07:22:45 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by NosotrosController#index as HTML
+  Rendered nosotros/index.html.erb within layouts/application (5.2ms)
+  Rendered compartido/_header.html.erb (2.7ms)
+  Rendered compartido/_ladoizquierdo.html.erb (0.5ms)
+  Rendered compartido/_footer.html.erb (0.6ms)
+Completed 200 OK in 108ms (Views: 107.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/equipo-901816bcdee501169ae67e6258f0a34e96c4f67845492a979e076bd7584ba380.png" for 201.230.92.121 at 2015-06-13 07:22:46 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255

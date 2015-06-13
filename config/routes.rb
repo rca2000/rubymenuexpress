@@ -1,23 +1,23 @@
 Rails.application.routes.draw do
   
-  get 'sessions/new'
-  get 'users/new' => "users#new", :as => :user
-  resources :users
+#  get 'sessions/new'
+#  get 'users/new' => "users#new", :as => :user
+#  resources :users
 
 #  match ':controller(/:action(/:id))(.:format)'
 #  root :to => 'sessions#login'
 #  match "signup", :to => "users#new"
 
-#  root 'home#index'
-#  get 'contacto/index'
-#  get 'servicio/index'
-#  get 'nosotros/index'
-#  get 'home/index'
-#  get 'pedido/index'
-#  get 'localmenu/index'
-#  get 'locales/index'
-#  get 'registrousuario/index'
-#  get 'perfil/index'
+  root 'home#index'
+  get 'contacto/index'
+  get 'servicio/index'
+  get 'nosotros/index'
+  get 'home/index'
+  get 'pedido/index'
+  get 'localmenu/index'
+  get 'locales/index'
+  get 'registrousuario/index'
+  get 'perfil/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

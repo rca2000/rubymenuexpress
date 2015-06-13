@@ -3,8 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>MENÚ EXPRESS</title>
-        <%= stylesheet_link_tag    'bootstrap', media: 'all', 'data-turbolinks-track' => true %>
-        <%= stylesheet_link_tag    'bootstrap-theme', media: 'all', 'data-turbolinks-track' => true %>
+        <%= stylesheet_link_tag    'style', media: 'all', 'data-turbolinks-track' => true %>
         <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
         <%= javascript_include_tag 'jquery-2.1.4.min.js', 'data-turbolinks-track' => true %>
         <%= javascript_include_tag 'clearform.js', 'data-turbolinks-track' => true %>
@@ -75,8 +74,9 @@
         </script>
     </head>
 <body>
-
+    <%= render "compartido/header" %>
+    <%= render "compartido/ladoizquierdo" %>
     <%= yield %>
-
+    <%= render "compartido/footer" %>
 </body>
 </html>
